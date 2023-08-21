@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-color: lightseagreen;
+    position: relative;
+}
+.buttonsDiv {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    /* float: left; */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    /* background-color: red; */
+}
+.btn1 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
